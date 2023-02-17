@@ -1,0 +1,74 @@
+.container__capa {
+    width: 100%;
+    background: var(--lilas);
+    line-height: 0;
+}
+
+.capa-disco {
+    width: 100%;
+}
+
+/*--------------------------------------------*/
+
+.container__banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--azul-escuro);
+}
+
+.banner-img {
+    width: 40px;
+    height: 40px;
+    margin: 8px;
+}
+
+.banner-link {
+    line-height: 0;
+}
+
+/*-----------------------------------------*/
+
+.container__fotos {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 4fr 2fr;
+    line-height: 0;
+}
+
+.fotos {
+    width: 100%;
+}
+
+/*-------------------------------------------*/
+.container__sobrenos {
+    display: flex;
+    flex-direction: column;
+    background: var(--cinza-escuro);
+    padding: 16px 16px 0 16px;
+    margin: 0;
+}
+
+.sobrenos-texto {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    color: var(--branco);
+    line-height: 16px;
+    margin-bottom: 16px;
+}
+
+/*---------------------------------------------*/
+
+.container__clipe-promocional {
+    display: flex;
+    justify-content: center;
+    background: var(--preto);
+    padding: 20px 0;
+}
+
+.video-promocional {
+    width: 340px;
+    height: 190px;
+}

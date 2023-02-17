@@ -1,0 +1,19 @@
+@import url("header.css");
+@import url("main.css");
+@import url("footer.css");
+
+:root {
+    --fonte-principal: "Lexend Deca";
+    --preto: #1B1C1C;
+    --cinza-escuro: #575959;
+    --cinza-claro: #9E9B98;
+    --branco: #E8E7E7;
+    --azul-escuro: #3D71B7;
+    --azul-claro: #8DD5EC;
+    --lilas: #8381BD;
+    --verde: #C6EFAB;
+}
+
+body {
+    font-family: var(--fonte-principal);
+}

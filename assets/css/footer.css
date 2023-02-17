@@ -1,0 +1,19 @@
+.container__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background: var(--cinza-escuro);
+    padding: 0 16px 0 13px;
+}
+
+.div-texto {
+    color: var(--branco);
+    font-size: 10px;
+    font-weight: 100;
+    text-align: right;
+}
+
+.div-texto p:last-child {
+    font-size: 8px;
+}
