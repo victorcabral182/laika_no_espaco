@@ -23,3 +23,53 @@
     margin-right: 16px;
     color: var(--preto);
 }
+
+/*------------------------------------------*/
+
+.container__menu-links {
+    float: left;
+    width: 390px;
+    background: var(--branco);
+    position: absolute;
+    top: 70px;
+    left: -500px;
+    transition: all 750ms;
+    border-top: 1px solid #00000015 ;
+}
+
+.container__menu-links-ativo {
+    left: 0px;
+}
+
+.div__menu-hamb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 780px;
+}
+
+.menu-link {
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--preto);
+    margin: 32px 0 32px 47px;
+}
+
+.dog-menu {
+    width: 105px;
+    margin-right: 47px;
+}
+
+.marca-link {
+    text-decoration: underline;
+}
+
+
+
