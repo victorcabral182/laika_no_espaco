@@ -82,6 +82,12 @@
     .container__menu {
         display: none;
     }
+    .container__menu-links {
+        float: none;
+        position: static;
+        margin-right: 125px;
+        border: none;
+    }
     .lista__links {
         flex-direction: row;
         align-items: center;
