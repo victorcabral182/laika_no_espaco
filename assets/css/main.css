@@ -189,10 +189,54 @@
         line-height: 22px;
     }
     .container__clipe-promocional {
-
+        
     }
-    .video-promocional {
+    .video-promocional, .videos-config {
         width: 680px;
         height: 380px;
+    }
+    .container__videos {
+        padding-bottom: 8px;
+    }
+    .container__tour {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 16px;
+    }
+    .container__evento {
+        margin-bottom: 16px;
+    }
+}
+
+@media screen and (min-width: 1008px) {
+    .container__capa {
+        display: flex;
+        justify-content: center;
+        background: var(--branco);
+        line-height: 0;
+    }
+    
+    .capa-disco {
+        width: 100%;
+        padding: 0 144px;
+    }
+    .container__banner {
+        height: 100px;
+    }
+    .banner-img {
+        width: 100px;
+        height: 100px;
+        margin: 0 64px;
+    }
+    .ouca-agora {
+        font-size: 48px;
+    }
+    .container__fotos {
+        padding: 64px 144px;
+    }
+    .container__sobrenos {
+        padding: 64px 288px;
     }
 }

@@ -87,6 +87,7 @@
         position: static;
         margin-right: 125px;
         border: none;
+        transition: all 0ms;
     }
     .lista__links {
         flex-direction: row;
@@ -100,5 +101,18 @@
     }
     .dog-menu {
         display: none;
+    }
+}
+
+@media screen and (min-width: 1008px) {
+    .container__header {
+        height: 100px;
+    }
+    .logo-menu {
+        margin-left: 144px;
+        width: 120px;
+    }
+    .container__menu-links {
+        margin-right: 269px;
     }
 }
