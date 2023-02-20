@@ -17,3 +17,19 @@
 .div-texto p:last-child {
     font-size: 8px;
 }
+
+@media screen and (min-width: 640px) {
+    .container__footer {
+        height: 80px;
+    }
+    .container__footer img {
+        width: 60px;
+        height: 60px;
+    }
+    .div-texto p {
+        font-size: 14px;
+    }
+    .div-texto p:last-child {
+        font-size: 10px;
+    }
+}

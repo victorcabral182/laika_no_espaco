@@ -30,10 +30,11 @@
     float: left;
     width: 390px;
     background: var(--branco);
+    opacity: 0.98;
     position: absolute;
     top: 70px;
     left: -500px;
-    transition: all 750ms;
+    transition: all 500ms;
     border-top: 1px solid #00000015 ;
 }
 
@@ -71,5 +72,27 @@
     text-decoration: underline;
 }
 
-
-
+@media screen and (min-width: 640px) {
+    .container__header {
+        height: 80px;
+    }
+    .logo-menu {
+        width: 90px;
+    }
+    .container__menu {
+        display: none;
+    }
+    .lista__links {
+        flex-direction: row;
+        align-items: center;
+        height: auto;
+        margin-right: 8px;
+    }
+    .menu-link {
+        margin: 16px;
+        padding: 8px;
+    }
+    .dog-menu {
+        display: none;
+    }
+}
