@@ -11,3 +11,20 @@ buttonMenu.addEventListener("click", () => {
         buttonMenu.style.marginBottom = "-3px"
     }
 })
+
+const listaNav = document.querySelectorAll(".menu-link");
+function marcaPagina(index) {
+    listaNav[index].classList.toggle("marca-link");
+    console.log(listaNav[index])
+}
+
+let tituloPagina = document.title;
+if(tituloPagina === 'LAIKA NO ESPAÇO | Home') {
+    listaNav[0].classList.toggle("marca-link");
+} else if (tituloPagina === 'LAIKA NO ESPAÇO | Videos') {
+    listaNav[1].classList.toggle("marca-link");
+} else if (tituloPagina === 'LAIKA NO ESPAÇO | Merch') {
+    listaNav[2].classList.toggle("marca-link");
+} else if (tituloPagina === 'LAIKA NO ESPAÇO | Tour') {
+    listaNav[3].classList.toggle("marca-link");
+}

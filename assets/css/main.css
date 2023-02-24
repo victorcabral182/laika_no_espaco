@@ -106,7 +106,7 @@
 
 .container__tour {
     background: linear-gradient(var(--azul-escuro), var(--cinza-escuro));
-    height: 724px;
+    height: auto;
 }
 
 .titulo__tour {
