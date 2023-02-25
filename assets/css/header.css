@@ -70,6 +70,7 @@
 
 .marca-link {
     text-decoration: underline;
+    color: var(--lilas);
 }
 
 @media screen and (min-width: 640px) {
@@ -109,10 +110,15 @@
         height: 100px;
     }
     .logo-menu {
-        margin-left: 144px;
+        margin-left: 200px;
         width: 120px;
     }
     .container__menu-links {
-        margin-right: 269px;
+        margin-right: 313px;
+    }
+    .lista__links a:hover {
+        color: var(--lilas);
+        transition: all 1s;
+        transform: scale(1.15);
     }
 }

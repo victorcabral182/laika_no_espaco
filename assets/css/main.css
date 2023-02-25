@@ -217,10 +217,9 @@
         background: var(--branco);
         line-height: 0;
     }
-    
     .capa-disco {
         width: 100%;
-        padding: 0 144px;
+        padding: 0 200px;
     }
     .container__banner {
         height: 100px;
@@ -234,9 +233,21 @@
         font-size: 48px;
     }
     .container__fotos {
-        padding: 64px 144px;
+        padding: 64px 200px;
     }
     .container__sobrenos {
         padding: 64px 288px;
+    }
+    .titulo__videos {
+        padding: 16px 0 16px 210px;        
+    }
+    .container__tour {
+        padding: 0 200px;
+    }
+    .titulo__tour {
+        padding: 16px 0 16px 8px;
+    }
+    .container__evento {
+        margin: 0 300px 16px 300px;
     }
 }
