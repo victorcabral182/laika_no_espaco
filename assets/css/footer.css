@@ -18,11 +18,21 @@
     font-size: 8px;
 }
 
+.icone__instagram {
+    width: 50px;
+    height: auto;
+    padding-bottom: 2px;
+}
+
 @media screen and (min-width: 640px) {
     .container__footer {
         height: 80px;
     }
-    .container__footer img {
+    .icone__instagram {
+        width: 80px;
+        padding: 0 0 1px 0;
+    }
+    .logoalt-footer {
         width: 60px;
         height: 60px;
     }
@@ -37,5 +47,9 @@
 @media screen and (min-width: 1008px) {
     .container__footer {
         padding: 0 200px;
+    }
+    .icone__instagram {
+        width: 80px;
+        padding-bottom: 3px;
     }
 }
